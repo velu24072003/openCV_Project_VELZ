@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\velu2\Downloads\dirent-1.24\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,18 +134,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="annotating.cpp" />
+    <ClCompile Include="BagroundEStimation.cpp" />
     <ClCompile Include="blop_detection.cpp" />
     <ClCompile Include="Colour spaces.cpp" />
     <ClCompile Include="ConsoleApplication2.cpp" />
     <ClCompile Include="enumeration.cpp" />
+    <ClCompile Include="erode&amp;dilation.cpp" />
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Convolution Kernels in Image Processing.cpp" />
+    <ClCompile Include="Iterating_directory.cpp" />
     <ClCompile Include="mouse.cpp" />
     <ClCompile Include="rotating.cpp" />
+    <ClCompile Include="task4.cpp" />
     <ClCompile Include="task1.cpp" />
     <ClCompile Include="task2.cpp" />
     <ClCompile Include="task3.cpp" />
     <ClCompile Include="threshold.cpp" />
+    <ClCompile Include="trackBar.cpp" />
     <ClCompile Include="_Imageresize.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
