@@ -5,7 +5,7 @@
 //using namespace cv;
 //
 //int main() {
-//	/*Mat img = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\colorshape.jpg");
+//	/*Mat img = imread("colorshape.jpg");
 //	imshow("original",img);
 //	Mat erode_ , dilate_;
 //	Mat elementKernal = getStructuringElement(MORPH_RECT, Size(3,3), Point(1, 1));
@@ -30,10 +30,10 @@
 //	img.convertTo(img, -1, 1, -150);
 //	imshow("img1", img);
 //
-//	cout << img << endl;
+//	//cout << img << endl;
 //	cv::Mat elementKernal = getStructuringElement(MORPH_RECT, Size(3, 3), Point(1,2));
-//	cout << img << endl;
-//	cout << elementKernal << endl;
+//	/*cout << img << endl;
+//	cout << elementKernal << endl;*/
 //	cv::erode(img, img, elementKernal, cv::Point(1, 1));
 //	imshow("img", img);
 //	waitKey(0);
@@ -44,7 +44,7 @@
 ////#include "stdafx.h"
 //
 //        // Read the image file
-//        Mat image = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\WhatsApp Image 2024-10-08 at 10.11.33_dc638ec7.jpg");
+//        Mat image = imread("WhatsApp Image 2024-10-08 at 10.11.33_dc638ec7.jpg");
 //
 //        // Check for failure
 //        if (image.empty())

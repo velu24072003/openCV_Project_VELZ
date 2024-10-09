@@ -25,5 +25,5 @@
 //	imshow("size3", i3);
 //	waitKey(0);
 //	return 0;
-// dwwd
+// 
 //}

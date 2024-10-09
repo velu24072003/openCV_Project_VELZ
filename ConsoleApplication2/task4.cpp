@@ -6,8 +6,8 @@
 //using namespace cv;
 //int main()
 //{
-//	Mat image = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\colorshape.jpg");
-//	Mat image1 = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\colorshape1.jpg");
+//	Mat image = imread("colorshape.jpg");
+//	Mat image1 = imread("colorshape1.jpg");
 //
 //	Mat img;
 //	resize(image, img, Size(500, 500), INTER_LINEAR);

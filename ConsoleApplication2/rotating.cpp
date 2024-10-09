@@ -4,7 +4,7 @@
 //using namespace cv;
 //
 //int main() {
-//    Mat image = imread("C:/Users/velu2/OneDrive/Pictures/Saved Pictures/WhatsApp Image 2024-09-24 at 16.59.30_96264728.jpg");
+//    Mat image = imread("WhatsApp Image 2024-09-24 at 16.59.30_96264728.jpg");
 //    Point2f center(0,0);
 //    Mat rotation_matix = getRotationMatrix2D(center,10, 1.0);
 //    Mat rotated_image;

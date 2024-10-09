@@ -138,11 +138,9 @@
     <ClCompile Include="blop_detection.cpp" />
     <ClCompile Include="Colour spaces.cpp" />
     <ClCompile Include="ConsoleApplication2.cpp" />
-    <ClCompile Include="enumeration.cpp" />
     <ClCompile Include="erode&amp;dilation.cpp" />
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Convolution Kernels in Image Processing.cpp" />
-    <ClCompile Include="Ftesting.cpp" />
     <ClCompile Include="Iterating_directory.cpp" />
     <ClCompile Include="mouse.cpp" />
     <ClCompile Include="pixelValue.cpp" />

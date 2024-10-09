@@ -55,7 +55,7 @@
 //    }
 //    else
 //    {
-//        video_file = "C:\\Users\\velu2\\Downloads\\123.mp4";
+//        video_file = "";
 //    }
 //
 //    VideoCapture cap(video_file);

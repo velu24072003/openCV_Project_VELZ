@@ -30,7 +30,7 @@
 //	 //img = cv::Mat(cv::Size(200,200),CV_8UC3,cv::Scalar(243,2,43));
 //	 //cv::cvtColor(img, img, cv::COLOR_BGR2RGB);
 //	while (1) {
-//		img = cv::imread("C:/Users/velu2/OneDrive/Pictures/Saved Pictures/WhatsApp Image 2024-09-24 at 16.59.30_96264728.jpg");
+//		img = cv::imread("WhatsApp Image 2024-09-24 at 16.59.30_96264728.jpg");
 //		cv::imshow("img", img);
 //		cv::setMouseCallback("img", call, 0);
 //		cv::waitKey();

@@ -10,7 +10,11 @@
 //    
 //    // Read image
 //    Mat inputImage;
-//    inputImage = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG20241008123914.jpg");
+//    inputImage = imread("IMG20241008123914.jpg");
+//    Mat resize_img;
+//    resize(inputImage, resize_img,Size(200,200));
+//    imshow("QR", resize_img);
+//    waitKey(0);
 //    QRCodeDetector qrDecoder = QRCodeDetector::QRCodeDetector();
 //    std::string data = qrDecoder.detectAndDecode(inputImage);
 //    cout << data;
