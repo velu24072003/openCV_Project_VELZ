@@ -142,6 +142,7 @@
     <ClCompile Include="erode&amp;dilation.cpp" />
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Convolution Kernels in Image Processing.cpp" />
+    <ClCompile Include="Ftesting.cpp" />
     <ClCompile Include="Iterating_directory.cpp" />
     <ClCompile Include="mouse.cpp" />
     <ClCompile Include="pixelValue.cpp" />
@@ -162,61 +163,6 @@
     <ResourceCompile Include="ConsoleApplication2.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\1.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\11.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\12.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\13.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\2.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\3.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\colorshape.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\colorshape1.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145207293.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145214122.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145221091.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145224915.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145228960.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145232068.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145235618.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145239438.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145248326.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145251234.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145254315.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145257698.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145301010.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145311457.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145315913.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145319192.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145324194.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145329683.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145338134.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Image_20240930145342182.bmp" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG - 20240921.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG - 20240928 - WA00054.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG - 20240928.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240919-WA0002.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240919-WA0003.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240919-WA0004.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240919-WA0005.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0001.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0002.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0003.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0004.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0005.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0006.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG-20240928-WA0007.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG20241008123257.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\IMG20241008123914.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\senior.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\th.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\th1.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\th3.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\velz.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\velz1.png" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\vvvvv.png" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-09-21 at 12.37.27_9a700ee0.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-09-24 at 11.27.41_8a0ebbf1.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-09-24 at 16.59.30_96264728.jpg" />
-    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-10-08 at 10.11.33_dc638ec7.jpg" />
     <Image Include="bitmap1.bmp" />
     <Image Include="blur_kernel.jpg" />
     <Image Include="contours_none_image1.jpg" />
@@ -231,7 +177,6 @@
     <Image Include="translated_image.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\Calibration sheet.pdf" />
     <None Include="ConsoleApplication2.aps" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
