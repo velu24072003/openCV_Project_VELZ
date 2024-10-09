@@ -5,11 +5,13 @@ using namespace cv;
 
 int main() {
     // Read image
-    cv::Mat im = cv::imread("david-clode-Oq9JrJb6K7M-unsplash.jpg",0);
+    cv::Mat im = cv::imread("david-clode-Oq9JrJb6K7M-unsplash1.jpg",0);
     Mat sobelx, sobely, sobelxy;
     Mat img_blur;
     GaussianBlur(im, img_blur,Size(3,3),0,0);
     Sobel(img_blur, sobelx, CV_64F, 1, 0, 5);
+    Sobel(img_blur, sobely, CV_64F, 0, 1, 5);
+    Sobel(img_blur, sobelxy, CV_64F, 1, 1, 5);
    
     //// Display Sobel edge detection images
     imshow("Sobel X", sobelx);
