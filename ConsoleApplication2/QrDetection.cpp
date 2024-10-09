@@ -10,7 +10,7 @@
 //    
 //    // Read image
 //    Mat inputImage;
-//    inputImage = imread("IMG20241008123914.jpg");
+//    inputImage = imread("./sources/IMG20241008123914.jpg");
 //    Mat resize_img;
 //    resize(inputImage, resize_img,Size(200,200));
 //    imshow("QR", resize_img);

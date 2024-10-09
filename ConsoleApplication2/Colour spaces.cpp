@@ -6,8 +6,8 @@
 //int main() {
 //
 //
-//	Mat	bright = cv::imread("ligght.png");
-//	Mat	dark = cv::imread("light1.png");
+//	Mat	bright = cv::imread("./sources/ligght.png");
+//	Mat	dark = cv::imread("./sources/light1.png");
 //	Mat brightLAB, darkLAB, brightYCB, darkYCB, brightHSV, darkHSV;
 //	cvtColor(bright, brightLAB,COLOR_BGR2Lab);
 //	cvtColor(dark, darkLAB, COLOR_BGR2Lab);

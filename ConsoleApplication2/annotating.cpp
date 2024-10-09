@@ -5,7 +5,7 @@
 //int main()
 //{
 //    // Read Images
-//    Mat img = imread("WhatsApp Image 2024-09-24 at 11.27.41_8a0ebbf1.jpg");
+//    Mat img = imread("./sources/WhatsApp Image 2024-09-24 at 11.27.41_8a0ebbf1.jpg");
 //    // Display Image
 //    cout << "cols" << img.cols;
 //    cout << "rows" << img.rows;

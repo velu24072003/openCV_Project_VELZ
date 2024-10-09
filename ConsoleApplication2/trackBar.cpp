@@ -18,7 +18,7 @@
 //void scaleImage(int, void*)
 //{
 //    // Read the image
-//    Mat image = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\colorshape.jpg");
+//    Mat image = imread("./sources/colorshape.jpg");
 //
 //    // Get the Scale factor from the trackbar
 //    double scaleFactorDouble = 1 + scaleFactor / 100.0;
@@ -43,7 +43,7 @@
 //int main()
 //{
 //    // load an image
-//    Mat image = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\colorshape.jpg");
+//    Mat image = imread("./sources/colorshape.jpg");
 //
 //    // Create a window to display results and set the flag to Autosize
 //    namedWindow(windowName, WINDOW_AUTOSIZE);

@@ -7,7 +7,7 @@
 //   
 //    Mat kernel1 = (Mat_<double>(3, 3) << 0, -1, 0, -1, 4, -1, 0, -1, 0);
 //    Mat identity;
-//    Mat image = imread("david-clode-Oq9JrJb6K7M-unsplash1.jpg");
+//    Mat image = imread("./sources/david-clode-Oq9JrJb6K7M-unsplash1.jpg");
 //    filter2D(image, identity, -1, kernel1, Point(-1, -1), 0, 4);
 //    imshow("Original", image);
 //    waitKey(0);

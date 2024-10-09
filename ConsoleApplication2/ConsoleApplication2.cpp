@@ -10,8 +10,8 @@
 //int main() {
 //    // Read the image from file
 //    for (int i = -1;; i++) {
-//    cv::Mat image = cv::imread("velu (1).jpg", i);
-//        cv::imwrite("velu4.jpg", image);
+//    cv::Mat image = cv::imread("./sources/velu (1).jpg", i);
+//        cv::imwrite("./sources/velu4.jpg", image);
 //        this_thread::sleep_for(chrono::seconds(1));
 //        // Check if the image was loaded successfully
 //        if (image.empty()) {

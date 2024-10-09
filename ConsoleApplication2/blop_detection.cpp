@@ -5,7 +5,7 @@
 //
 //int main() {
 //    // Read image
-//    cv::Mat im = cv::imread("david-clode-Oq9JrJb6K7M-unsplash1.jpg",0);
+//    cv::Mat im = cv::imread("./sources/david-clode-Oq9JrJb6K7M-unsplash1.jpg",0);
 //    Mat sobelx, sobely, sobelxy;
 //    Mat img_blur;
 //    GaussianBlur(im, img_blur,Size(3,3),0,0);

@@ -6,7 +6,7 @@
 //// draw contour area
 //int main()
 //{
-//    Mat input = imread("WhatsApp Image 2024-09-24 at 11.27.41_8a0ebbf1.jpg");
+//    Mat input = imread("./sources/WhatsApp Image 2024-09-24 at 11.27.41_8a0ebbf1.jpg");
 //    Mat redOnly;
 //    inRange(input, Scalar(210, 170, 20), Scalar(255, 240, 204), redOnly);
 //    vector<vector<Point>> contours;

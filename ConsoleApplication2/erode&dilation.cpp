@@ -5,8 +5,8 @@
 //using namespace cv;
 //
 //int main() {
-//	/*Mat img = imread("colorshape.jpg");
-//	imshow("original",img);
+//	/*Mat img = imread("./sources/colorshape.jpg");
+//	imshow("./sources/original",img);
 //	Mat erode_ , dilate_;
 //	Mat elementKernal = getStructuringElement(MORPH_RECT, Size(3,3), Point(1, 1));
 //	erode(img,erode_,elementKernal,Point(-1,-1),1);

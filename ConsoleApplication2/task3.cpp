@@ -17,7 +17,7 @@
 //        if (y == 4)
 //            return 0;
 //        k = to_string(y);
-//        input = imread("IMG-20240928-WA000" + k + ".jpg");
+//        input = imread("./sources/IMG-20240928-WA000" + k + ".jpg");
 //        if (input.empty()) {
 //            continue;
 //        }
