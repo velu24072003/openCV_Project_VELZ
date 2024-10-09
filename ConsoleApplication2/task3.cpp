@@ -77,9 +77,16 @@
 //        if (y == 8)
 //            return 0;
 //        k = to_string(y);
-//        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\senior.jpg");
+//
+//<<<<<<< HEAD
+//        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\senior.jpg");/
+//=======
 //        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
 // /       input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
+//>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
+//=======
+//        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
+//>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 //        if (input.empty()) {
 //            continue;
 //        }
