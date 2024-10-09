@@ -18,7 +18,11 @@
 //        if (y == 8)
 //            return 0;
 //        k = to_string(y);
+<<<<<<< HEAD
 //        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\senior.jpg");
+=======
+//        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 //        if (input.empty()) {
 //            continue;
 //        }
@@ -31,8 +35,12 @@
 //        Mat binary;
 //        Mat inrange;
 //        // inrange function to isolate the cashew nut alone
+<<<<<<< HEAD
 //        threshold(vv1, inrange, 140, 255, THRESH_BINARY);
 //       //inRange(input,Scalar(42,82,87), Scalar(255,255,255), inrange);
+=======
+//        inRange(input,Scalar(42,82,87), Scalar(255,255,255), inrange);
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 //        imshow("usingInrange", inrange);
 //        waitKey(0);
 //        /*Athreshold(vv1, binary, 76, 255, THRESH_BINARY);
@@ -51,6 +59,11 @@
 //            }
 //
 //        }
+<<<<<<< HEAD
+=======
+//
+//
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 //        destroyAllWindows();
 //        y++;
 //    }
