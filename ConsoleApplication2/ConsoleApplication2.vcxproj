@@ -142,6 +142,7 @@
     <ClCompile Include="erode&amp;dilation.cpp" />
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Convolution Kernels in Image Processing.cpp" />
+    <ClCompile Include="Ftesting.cpp" />
     <ClCompile Include="Iterating_directory.cpp" />
     <ClCompile Include="mouse.cpp" />
     <ClCompile Include="pixelValue.cpp" />

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\ff">
+      <UniqueIdentifier>{c88ddc63-f331-4307-b8b9-2fc2e7f3a1c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication2.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="pixelValue.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ftesting.cpp">
+      <Filter>Source Files\ff</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
