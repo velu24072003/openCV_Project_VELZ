@@ -19,7 +19,11 @@
 //            return 0;
 //        k = to_string(y);
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\senior.jpg");
+=======
+//        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 =======
 //        input = imread("C:\\Users\\velu2\\OneDrive\\Pictures\\Saved Pictures\\IMG-20240928-WA000" + k + ".jpg");
 >>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
@@ -36,8 +40,12 @@
 //        Mat inrange;
 //        // inrange function to isolate the cashew nut alone
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        threshold(vv1, inrange, 140, 255, THRESH_BINARY);
 //       //inRange(input,Scalar(42,82,87), Scalar(255,255,255), inrange);
+=======
+//        inRange(input,Scalar(42,82,87), Scalar(255,255,255), inrange);
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 =======
 //        inRange(input,Scalar(42,82,87), Scalar(255,255,255), inrange);
 >>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
@@ -60,6 +68,11 @@
 //
 //        }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+//
+//
+>>>>>>> ab1959f508e076a4aebba21e383af7a171f46665
 =======
 //
 //
