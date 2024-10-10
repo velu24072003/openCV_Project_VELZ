@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2a7a0108-262b-4472-9fe7-e4a04cb64c36}</ProjectGuid>
-    <RootNamespace>ConsoleApplication2</RootNamespace>
+    <ProjectGuid>{ae23788e-a526-4fb9-ab08-4362226b58a2}</ProjectGuid>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,14 +70,6 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\opencv\build\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\opencv\build\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -112,13 +104,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world4100d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -129,64 +118,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world4100d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="annotating.cpp" />
-    <ClCompile Include="BagroundEStimation.cpp" />
-    <ClCompile Include="blop_detection.cpp" />
-    <ClCompile Include="brightness_and_contrast.cpp" />
-    <ClCompile Include="Colour spaces.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="read_image.cpp" />
-    <ClCompile Include="erode_and_dilation.cpp" />
-    <ClCompile Include="FileName.cpp" />
-    <ClCompile Include="convolution_kernels.cpp" />
-    <ClCompile Include="iterating_directory.cpp" />
-    <ClCompile Include="mouse_move.cpp" />
-    <ClCompile Include="pixelValue.cpp" />
-    <ClCompile Include="QrDetection.cpp" />
-    <ClCompile Include="rotating.cpp" />
-    <ClCompile Include="threshold_mask.cpp" />
-    <ClCompile Include="find_draw_contour.cpp" />
-    <ClCompile Include="big_cashew_nut.cpp" />
-    <ClCompile Include="area_of_cashew_nut.cpp" />
-    <ClCompile Include="threshold.cpp" />
-    <ClCompile Include="trackbar.cpp" />
-    <ClCompile Include="image_resize.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="ConsoleApplication2.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="bitmap1.bmp" />
-    <Image Include="blur_kernel.jpg" />
-    <Image Include="contours_none_image1.jpg" />
-    <Image Include="identity.jpg" />
-    <Image Include="Image Resizing\image1.jpg" />
-    <Image Include="opencv-thresh-binary-inv.jpg" />
-    <Image Include="opencv-thresh-binary-maxval.jpg" />
-    <Image Include="opencv-thresh-binary.jpg" />
-    <Image Include="opencv-thresh-to-zero-inv.jpg" />
-    <Image Include="opencv-thresh-tozero.jpg" />
-    <Image Include="opencv-thresh-trunc.jpg" />
-    <Image Include="opencv-threshold-example.jpg" />
-    <Image Include="translated_image.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ConsoleApplication2.aps" />
+    <ClCompile Include="ConsoleApplication1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

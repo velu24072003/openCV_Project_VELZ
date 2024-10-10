@@ -13,24 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\ff">
-      <UniqueIdentifier>{c88ddc63-f331-4307-b8b9-2fc2e7f3a1c5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication2.cpp">
+    <ClCompile Include="read_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FileName.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_Imageresize.cpp">
+    <ClCompile Include="image_resize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="enumeration.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="task1.cpp">
+    <ClCompile Include="find_draw_contour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rotating.cpp">
@@ -42,7 +36,7 @@
     <ClCompile Include="Colour spaces.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Convolution Kernels in Image Processing.cpp">
+    <ClCompile Include="convolution_kernels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="threshold.cpp">
@@ -51,28 +45,28 @@
     <ClCompile Include="blop_detection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mouse.cpp">
+    <ClCompile Include="mouse_move.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="task2.cpp">
+    <ClCompile Include="big_cashew_nut.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="task3.cpp">
+    <ClCompile Include="area_of_cashew_nut.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="task4.cpp">
+    <ClCompile Include="threshold_mask.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Iterating_directory.cpp">
+    <ClCompile Include="iterating_directory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="trackBar.cpp">
+    <ClCompile Include="trackbar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BagroundEStimation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="erode&amp;dilation.cpp">
+    <ClCompile Include="erode_and_dilation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QrDetection.cpp">
@@ -81,8 +75,11 @@
     <ClCompile Include="pixelValue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ftesting.cpp">
-      <Filter>Source Files\ff</Filter>
+    <ClCompile Include="brightness_and_contrast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +128,9 @@
     </Image>
     <Image Include="bitmap1.bmp">
       <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Image Resizing\image1.jpg">
+      <Filter>Source Files</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>

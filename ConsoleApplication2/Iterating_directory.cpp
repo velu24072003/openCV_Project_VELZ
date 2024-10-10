@@ -1,9 +1,9 @@
 //#include <opencv2/opencv.hpp>
-//
 //#include <dirent.h>
-//
-//int main() {
-//    DIR* dir = opendir("give folder path here to iterating files ");
+//class terating_directory{
+//public:
+//terating_directory(){
+//    DIR* dir = opendir("");
 //    struct dirent* ent;
 //    while ((ent = readdir(dir)) != NULL) {
 //        if (ent->d_type == DT_REG && strcmp(ent->d_name + strlen(ent->d_name) - 4, ".jpg") == 0) {
@@ -19,5 +19,6 @@
 //        }
 //    }
 //    closedir(dir);
-//    return 0;
+//    
 //}
+//};
